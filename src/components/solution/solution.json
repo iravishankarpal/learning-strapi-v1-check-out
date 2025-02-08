@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_solution_solutions",
+  "info": {
+    "displayName": "industry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lebal": {
+      "type": "string"
+    },
+    "tabIcon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "blocks"
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "detailDesc": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "ApplicationLIst": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

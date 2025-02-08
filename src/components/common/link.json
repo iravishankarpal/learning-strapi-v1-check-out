@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_common_links",
+    "info": {
+        "displayName": "link",
+        "icon": "link",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "LinkName": {
+            "type": "string"
+        },
+        "isExternal": {
+            "type": "boolean",
+            "default": false
+        },
+        "linkPath": {
+            "type": "string"
+        },
+        "linkImage": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
+            "allowedTypes": ["images", "files", "videos", "audios"]
+        }
+    }
+}
